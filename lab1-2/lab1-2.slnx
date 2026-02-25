@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="FactoryMethod/FactoryMethodApp.csproj" />
+  <Project Path="lab1-2/BuilderTaskApp.csproj" />
+</Solution>
