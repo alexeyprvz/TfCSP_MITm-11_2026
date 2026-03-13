@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Prototype/Prototype.csproj" />
+  <Project Path="Singleton/Singleton.csproj" Id="79a8accd-528e-420b-a73c-a057003506e4" />
+</Solution>
