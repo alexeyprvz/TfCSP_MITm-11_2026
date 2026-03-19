@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Composite/Composite.csproj" />
+  <Project Path="Decorator/Decorator.csproj" />
+  <Project Path="Facade/Facade.csproj" />
+  <Project Path="Flyweight/Flyweight.csproj" />
+</Solution>
