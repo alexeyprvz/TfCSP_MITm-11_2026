@@ -2,7 +2,7 @@
 
 namespace AdapterPatternTask
 {
-    public class MessageSender
+    public class MessageSender // Target
     {
         public virtual void Send(string message, string recipient)
         {
@@ -10,7 +10,7 @@ namespace AdapterPatternTask
         }
     }
 
-    public class SMSsender
+    public class SMSsender // Adaptees
     {
         public void SendSMS(string message, string phoneNumber)
         {
@@ -26,7 +26,7 @@ namespace AdapterPatternTask
         }
     }
 
-    public class SmsAdapter : MessageSender
+    public class SmsAdapter : MessageSender // Adapters
     {
         private SMSsender _smsSender = new SMSsender();
 
