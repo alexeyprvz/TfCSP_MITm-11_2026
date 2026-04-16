@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Chain of responsibility/Chain of responsibility.csproj" />
+  <Project Path="Command/Command.csproj" />
+</Solution>
